@@ -1,0 +1,88 @@
+.header{
+    background-color: white;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+}
+
+.contentContainer{
+    background-color: #f9f9fa;
+    height:100%;
+}
+
+html,body{
+    height:100%;
+}
+
+body{
+    margin:0;
+}
+
+.signUp{
+    background-color: white;
+    width: 320px;
+    padding: 10px 20px;
+    margin:17px auto;;
+    box-shadow: 1px 0 0 1px #eee, 0 1px 0 1px #eee;
+}
+
+.formTitle,.navbarTitle{
+    color:#6001d2;
+}
+
+.formTitle{
+    margin: 5px;
+}
+
+.signUpInputs{
+    width: 309px;
+    border-style: none none solid none;
+    height: 28px;
+}
+
+.signupFieldset{
+    padding: 8px 0;
+}
+
+.signUpSubmitButtom{
+    width: 294px;
+    height: 40px;
+    background-color: #188fff;
+    border: #188fff;
+    border-radius: 34px;
+    color: white;
+    font-size: large;
+}
+
+.formHeaders{
+    text-align: center;
+}
+
+.signUpInputs:focus {
+    outline: none;
+}
+
+.signUpSubmit,.signupFieldset{
+    border: none;
+   
+}
+
+.navbarTitle{
+    margin: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.helpHeader{
+    float: right;
+    padding-right: 8%;
+}
+
+.parallelDiv,.parallel{
+    display: inline-block;
+}
+
+.parallel{
+    border: 1px solid black;
+    padding: 10px;
+}
