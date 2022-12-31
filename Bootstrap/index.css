@@ -1,0 +1,71 @@
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.contentContainer{
+  background-color: #f9f9fa;
+  height:100%;
+}
+
+.pageHeader{
+  background-color: white;
+  width: 100%;
+  margin:0 !important;
+  align-items: center;
+}
+
+body{
+  margin:0;
+}
+
+.signUp{
+  background-color: white;
+  width: 320px;
+  padding: 10px 20px;
+  margin:17px auto;;
+}
+
+.formTitle,.navbarTitle{
+  color:#6001d2;
+}
+
+.formTitle{
+  margin: 5px;
+}
+
+.signUpInputs{
+  width: 280px;
+  height: 28px;
+}
+
+.signupFieldset{
+  padding: 8px 0;
+}
+
+.signUpSubmitButtom{
+  width: 282px;
+  border-radius: 34px !important; 
+}
+
+.formHeaders{
+  text-align: center;
+}
+
+.navbarTitle{
+  margin: 0;
+  padding: 15px;
+}
+
+
