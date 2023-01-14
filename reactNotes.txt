@@ -1,0 +1,47 @@
+- ReactJs is a javascript library created by Facebook(meta). 
+- It is going to handle development of single-page development.
+- It updates DOM in much faster way by using reconciliation algorithm. It also uses routing mechanism and navigates through multiple pages and instead 
+    of updating whole page. It will update only DOM which is modified.(rendering of particular element instead of whole page)
+- It has loosely coupled code.
+- Virtual DOM - it is created by reactjs instead of using DOM it will use virtual DOM for user interactions as it is faster and easier. It gets 
+    reference of the actual DOM and updates those nodes in the virtual DOM and later updates internally.
+- React elements are immutable.
+
+- It has Components structure 
+    - it has 3 types of components
+        - functional components (uses functions)
+        - class components (create classes)
+        - higher order components (reusable logic)
+
+- It props and state 
+    - props - it is the data passed from the parent component and these are read-only.
+    - state - it is a object inside the component and these are mutable. basically it is a local storage.
+
+- when you get the props, destructure them and then use inside a child component.
+- state can be used be created using context API or by importing redux and creating store.
+
+- Props drilling - when the props are passed from one component to multiple components inorder to pass the data from one to another component. 
+    to avoid this state was created.
+
+- state can set using this.setState() and can be read by this.state.value. we will have constructor to definite the inital state.
+
+- life cycle methods of components
+    - mount,update and unmount
+    - functional components life cycle methods are called as hooks.
+    - these are used to identify how the class is being loaded.
+    - few methods are
+        - to load component
+            - constructor() 
+            - static getDerivedStateFromProps()- deriving props if available or gives the default props
+            - render() - will render jsx to DOM
+            - componentDidMount() - checks whether component is utilized and loaded into DOM.
+        - updating change 
+            - shouldUpdate() - it is a boolean whether to update or not
+            - getSnapshotBeforeUpdate() - get the current situation before update.
+            - componentDidUpdate() - checks updated or not
+        - to unload
+            - componentWillUnmount() - to remove from DOM
+        - error handling 
+            -  static getStateFromError()
+            - componentDidCatch()
+            
